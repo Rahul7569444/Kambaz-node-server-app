@@ -9,7 +9,7 @@ export default function Lab5(app) {
         credentials: true,
         origin: [
             'http://localhost:5173',
-            'https://a5--kambaz-react-web-app-yw.netlify.app'
+            'https://a5--kambaz-an-edu-tool.netlify.app'
         ]
     }));
     app.get("/lab5/welcome", (req, res) => {
